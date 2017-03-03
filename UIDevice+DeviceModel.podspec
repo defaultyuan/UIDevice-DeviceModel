@@ -18,13 +18,13 @@ Pod::Spec.new do |s|
   s.name         = 'UIDevice+DeviceModel'
   s.version      = '1.0.0'
   s.summary      = 'A Device models category By UIDevice+DeviceModel.'
-   s.license          = { :type => 'MIT', :file => 'LICENSE' } 
+  s.license          = { :type => 'MIT', :file => 'LICENSE' } 
   s.homepage     = 'https://github.com/DefaultYuan/UIDevice-DeviceModel' 
   s.author       = { 'DefaultYuan' => '320820214@qq.com' } 
-  s.source       = { :git => 'https://github.com/DefaultYuan/UIDevice-DeviceModel.git',:tag => 1.0 } //git路径、指定tag号
-  s.source_files = 'UIDevice+DeviceModel/*'  //库的源代码文件
- #s.framework    = 'UIKit'
-  s.ios.deployment_target = '6.0'
+  s.source       = { :git => 'https://github.com/DefaultYuan/UIDevice-DeviceModel.git',:tag => 1.0 }
+ # s.source_files = 'UIDevice-DeviceModel/Classes/**/.'
+ # s.framework    = 'UIKit'
+  s.ios.deployment_target = '8.0'
   s.requires_arc = true
 
 end
