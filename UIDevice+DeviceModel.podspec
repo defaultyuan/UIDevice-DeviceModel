@@ -22,8 +22,8 @@ Pod::Spec.new do |s|
   s.homepage     = 'https://github.com/DefaultYuan/UIDevice-DeviceModel' 
   s.author       = { 'DefaultYuan' => '320820214@qq.com' } 
   s.source       = { :git => 'https://github.com/DefaultYuan/UIDevice-DeviceModel.git',:tag => 1.0 }
- # s.source_files = 'UIDevice-DeviceModel/Classes/**/.'
- # s.framework    = 'UIKit'
+  s.source_files = "UIDevice+DeviceModel", "UIDevice+DeviceModel/**/*.{h,m}"
+  s.framework    = 'UIKit'
   s.ios.deployment_target = '8.0'
   s.requires_arc = true
 
