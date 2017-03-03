@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = 'UIDevice+DeviceModel'
-  s.version      = '1.0.0'
+  s.version      = '1.0'
   s.summary      = 'A Device models category By UIDevice+DeviceModel.'
   s.license          = { :type => 'MIT', :file => 'LICENSE' } 
   s.homepage     = 'https://github.com/DefaultYuan/UIDevice-DeviceModel' 
