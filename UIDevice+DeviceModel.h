@@ -2,8 +2,8 @@
 //  UIDevice+DeviceModel.h
 //  TestDemo
 //
-//  Created by 袁斌 on 2017/3/3.
-//  Copyright © 2017年 袁斌. All rights reserved.
+//  Created by DefaultYuan on 2017/3/3.
+//  Copyright © 2017年 https://github.com/DefaultYuan/UIDevice-DeviceModel.git. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
