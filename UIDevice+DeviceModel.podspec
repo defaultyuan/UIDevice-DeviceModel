@@ -18,12 +18,12 @@ Pod::Spec.new do |s|
   s.name         = "UIDevice+DeviceModel"
   s.version      = "1.0.0"
   s.summary      = "A Device models category By UIDevice+DeviceModel."
-  s.license      = "MIT"  //开源协议
-  s.homepage     = 'https://github.com/DefaultYuan/UIDevice-DeviceModel.git' //主页
-  s.author       = { 'DefaultYuan ' => ‘320820214@qq.com' } //作者
+  s.license      = 'MIT' 
+  s.homepage     = 'https://github.com/DefaultYuan/UIDevice-DeviceModel' 
+  s.author       = { 'DefaultYuan ' => ‘320820214@qq.com' } 
   s.source       = { :git => 'https://github.com/DefaultYuan/UIDevice-DeviceModel.git',:tag => "1.0" } //git路径、指定tag号
   s.platform     = :ios 
-  s.source_files = 'HZCountDownBtn/*'  //库的源代码文件
+  s.source_files = 'UIDevice+DeviceModel/*'  //库的源代码文件
   s.framework    = 'UIKit'  //依赖的framework
   s.requires_arc = true
 
