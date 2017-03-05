@@ -15,8 +15,8 @@
 {
     NSString *machineName = [self machineName];
     
-    NSString *phoneModelStr = [self deviceNamesByMachine:machineName];
-    return phoneModelStr;
+    NSString *deviceModelStr = [self deviceNamesByMachine:machineName];
+    return deviceModelStr;
 }
 
 - (nonnull NSString *) getSysInfoByName:(char *)typeSpecifier
