@@ -1,2 +1,2 @@
 # UIDevice-PhoneModel
-PhoneModel
+Apple devices of various models.
